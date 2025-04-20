@@ -1,0 +1,415 @@
+/*
+  Localizable.strings
+  ManicEmu
+
+  Created by Aushuang Lee on 2024/12/25.
+  Copyright © 2024 Manic EMU. All rights reserved.
+*/
+
+
+
+//Import
+"ImportAddCloudServiceTitle" = "Dịch vụ đám mây";
+"ImportAddLanServiceTitle" = "Dịch vụ mạng nội bộ";
+"ImportAddDiscoverServiceTitle" = "Dịch vụ khám phá";
+"GoogleDrive" = "Google Drive";
+"Dropbox" = "Dropbox";
+"OneDrive" = "OneDrive";
+"BaiduYun" = "Baidu Cloud";
+"AliYun" = "Alibaba Cloud";
+"AddImportServiceHeaderTitle" = "Thêm dịch vụ";
+"ImportServiceDelete" = "Xóa dịch vụ";
+"ImportAliyunNotGetDriveId" = "Thêm dịch vụ Alibaba Cloud thất bại, không thể truy cập thư mục";
+"ImportDownloadError" = "Lỗi tải xuống\n%@";
+"ImportDownloadContinue" = "Tiếp tục tải...\n%@";
+"LandServiceEditServerName" = "Tên máy chủ";
+"LandServiceEditServerNamePlaceholder" = "Máy chủ SMB của tôi";
+"LandServiceEditHost" = "Địa chỉ máy chủ";
+"LandServiceEditUserName" = "Tên đăng nhập";
+"LandServiceEditPassword" = "Mật khẩu";
+"LandServiceEditRequiredPlaceholder" = "Bắt buộc";
+"LandServiceEditOptionalPlaceholder" = "Tùy chọn";
+"LandServiceEditConnect" = "Kết nối";
+"AddLandServiceSuccess" = "Thêm %@ thành công";
+"AddLandServiceFailed" = "Thêm %@ thất bại\nVui lòng kiểm tra kết nối mạng, trạng thái dịch vụ hoặc thông tin nhập";
+"AddLandServiceTimeout" = "Quá thời gian kết nối";
+"FilesImporterErrorFileExist" = "\"%@\" đã tồn tại, không cần nhập";
+"FilesImporterErrorBadCopy" = "Nhập \"%@\" thất bại, lỗi sao chép tệp";
+"FilesImporterErrorBadExtension" = "Nhập \"%@\" thất bại, định dạng không hỗ trợ";
+"FilesImporterErrorNoPermission" = "Không có quyền truy cập %@";
+"FilesImporterErrorUnableToHash" = "Nhập \"%@\" thất bại, không thể tính toán hash";
+"FilesImporterErrorWriteDatabase" = "Nhập \"%@\" thất bại, lỗi ghi cơ sở dữ liệu";
+"GameSaveMatchTitle" = "Liên kết lưu trữ với trò chơi";
+"FilesImporterErrorSaveNoMatchGames" = "\"%@\" không khớp trò chơi, vui lòng liên kết thủ công";
+"GameSaveAlreadyExistTitle" = "Lưu trữ đã tồn tại";
+"FilesImporterErrorSaveAlreadyExist" = "Nhập \"%@\" thất bại, ghi đè lưu trữ hiện có?";
+"GameSaveMathToMuchTitle" = "Nhiều kết quả khớp";
+"FilesImporterErrorSaveMathToMuch" = "Nhập \"%@\" thất bại, nhiều trò chơi khớp, vui lòng liên kết thủ công";
+"FilesImporterErrorSkinBadFile" = "Nhập %@ thất bại, tệp skin bị hỏng";
+"PasteImporterErrorNoMatchContent" = "Không có nội dung phù hợp trong clipboard";
+"FilesDownloadErrorFileExist" = "%@ đã được tải, không cần tải lại";
+"FilesImporterErrorEmptyContent" = "Không có tài nguyên để nhập";
+"LanServiceInitFailed" = "Khởi tạo dịch vụ %@ thất bại";
+"SMBLoginFailed" = "Đăng nhập Samba thất bại%@";
+"SMBListFilesFailed" = "Lấy danh sách tệp thất bại%@";
+"SMBListFilesTypeError" = "Tệp này không phải thư mục";
+"DropErrorLoadFailed" = "Tải tệp thất bại";
+"DropErrorNotSupportFile" = "Định dạng không hỗ trợ";
+"ImportErrorTitle" = "Lỗi nhập";
+"ImportGameSuccessTitle" = "Nhập trò chơi thành công";
+"ImportGameSuccessDetail" = "%@\nđã được thêm vào thư viện, xem ngay?";
+"ImportGameSuccessDetailForOne" = "\"%@\"\nđã được thêm vào thư viện, chơi ngay?";
+"ImportSkinSuccessTitle" = "Nhập skin thành công";
+"ImportSkinSuccessDetail" = "\"%@\"\nnhập thành công, xem ngay?";
+"ImportGameSaveSuccessTitle" = "Nhập lưu trữ thành công";
+"ImportGameSaveSuccessDetail" = "\"%@\"\nđã được liên kết với trò chơi";
+"ImportGameSaveSuccessForOne" = "\"%@\"\nđã được nhập, chơi ngay?";
+"ImportGameSaveFailedNoGameError" = "Nhập \"%@\" thất bại, bạn chưa có trò chơi!";
+"DownloadCompletion" = "Tải xuống hoàn tất";
+"QQChannelName" = "Kênh QQ";
+"NotSupportPasswordZip" = "Không thể giải nén \"%@\", không hỗ trợ file zip mã hóa";
+"UnzipFailed" = "Giải nén \"%@\" thất bại";
+"NoSupportInZip" = "\"%@\" không chứa định dạng hỗ trợ";
+"IPCopy" = "Đã sao chép địa chỉ";
+"ImportServiceListFilesTitle" = "Tệp";
+"ImportServiceListFilesDetail" = "Nhập trò chơi, skin, lưu trữ từ tệp hoặc iCloud";
+"ImportServiceListWiFiTitle" = "WiFi";
+"ImportServiceListWiFiOffDetail" = "Truyền tệp qua trình duyệt trong mạng nội bộ";
+"ImportServiceListWiFiOnDetail" = "%@\nDùng trình duyệt để truyền tệp";
+"ImportServiceListPasteTitle" = "Đọc clipboard";
+"ImportServiceListPasteDetail" = "Hỗ trợ sao chép tệp từ macOS và ứng dụng Files";
+"ImportHowTo" = "Cách nhập";
+"ImportTopHintTitle" = "Câu chuyện phiêu lưu đầy mơ ước bắt đầu từ đây!";
+"ImportDragAndDropTips" = "Kéo thả tệp vào bất kỳ giao diện Manic EMU để truyền";
+"ImportChannelTips" = "Tham gia %@ nếu cần hỗ trợ";
+"ToastConnectCloudDriveSuccess" = "Kết nối %@ thành công";
+"AlertImportFilesSuccess" = "Nhập tài nguyên thành công";
+"ErrorConnectCloudDrive" = "Không thể kết nối dịch vụ đám mây";
+"ErrorUnknown" = "Lỗi không xác định";
+"ReasonConncetCloudDriveFail" = "Kiểm tra kết nối mạng và ủy quyền dịch vụ, hoặc thử xóa và thêm lại dịch vụ";
+
+//Common
+"TabbarTitleGames" = "Trò chơi";
+"TabbarTitleImport" = "Nhập";
+"TabbarTitleSettings" = "Cài đặt";
+"SelectAll" = "Chọn tất cả";
+"DeSelectAll" = "Bỏ chọn";
+"CloudDriveBrowserDownload" = "Tải xuống";
+"CancelTitle" = "Hủy";
+"CheckTitle" = "Xem";
+"StartGameTitle" = "Chơi ngay";
+"ConfirmTitle" = "Xác nhận";
+"SaveTitle" = "Lưu";
+"NameTitle" = "Tên";
+"TimeAgoMinuteFormat" = "%d phút trước";
+"TimeAgoHourFormat" = "%d giờ trước";
+"TimeAgoDayFormat" = "%d ngày trước";
+"TimeAgoWeekFormat" = "%d tuần trước";
+"TimeAgoMonthFormat" = "%d tháng trước";
+"TimeAgoYearFormat" = "%d năm trước";
+"TimeDurationHourAndMinuteFormat" = "%d giờ %d phút";
+"TimeDurationHourFormat" = "%d giờ";
+"TimeDurationMinuteFormat" = "%d phút";
+"FatalErrorTitle" = "Lỗi nghiêm trọng";
+"FatalErrorDesc" = "Lỗi tải tài nguyên hệ thống, Manic EMU có thể gặp sự cố";
+"LodingFailedTitle" = "Tải thất bại";
+"AirPlayDesc" = "Bắt đầu cuộc phiêu lưu ngay!";
+"ToastSuccess" = "Lưu thành công";
+"ToastFailed" = "Lưu thất bại";
+
+//Games
+"GamesSearchPlaceHolder" = "Tên trò chơi";
+"GamesRename" = "Đổi tên";
+"GamesModifyCover" = "Sửa bìa";
+"GamesSpecifySkin" = "Thiết lập skin";
+"GamesCheatCode" = "Cheat code";
+"GamesShareRom" = "Chia sẻ ROM";
+"GamesCheckSave" = "Xem lưu trữ tức thời";
+"GamesImportSave" = "Nhập lưu trữ";
+"GamesShareSave" = "Xuất lưu trữ";
+"GamesDelete" = "Xóa trò chơi";
+"GamesRandom" = "Không biết chơi gì? Chọn ngẫu nhiên";
+"LoadGameErrorRomNotExist" = "Lỗi tải trò chơi: ROM không tồn tại";
+"GamesListEmptyGuideLeft" = "Nhấn vào";
+"GamesListEmptyGuideRight" = "bên dưới để nhập trò chơi";
+"GamesListEmptyWelcomeLeft" = "Chào mừng đến với thế giới";
+"GamesListEmptyWelcomeRight" = "";
+"GamesListEmptyWarnning" = "Đảm bảo ROM được lấy từ nguồn hợp pháp";
+"DeleteGameAlertDetail" = "ROM, lưu trữ và cheat code sẽ bị xóa vĩnh viễn!";
+"DeleteSkinAlertDetail" = "Skin đã xóa không thể khôi phục!";
+"DeleteGameGameStateAlertTitle" = "Xóa lưu trữ tức thời";
+"DeleteGameGameStateAlertDetail" = "Lưu trữ tức thời đã xóa không thể khôi phục!";
+"confirmDelte" = "Xác nhận xóa";
+
+//Controllers
+"ControllersTouchName" = "Điều khiển cảm ứng";
+"ControllersHeaderTitle" = "Bộ điều khiển";
+"ControllersPlayerIndex" = "Người chơi %d";
+"ControllersPlayerUnset" = "Chưa chọn";
+"ControllersHowToConnect" = "Cách kết nối";
+
+//GameInfo
+"ReadyGameInfoSubTitle" = "Chơi %@ · Tổng %@";
+"ReadyGameInfoNeverPlayed" = "Chưa chơi, bắt đầu ngay";
+"ReadyEditCoverTakePhoto" = "Chụp ảnh";
+"ReadyEditCoverAlbum" = "Thư viện";
+"ReadyEditCoverFile" = "Tệp";
+"ReadyEditCoverSearch" = "Tìm kiếm";
+"ReadySegmentManualSave" = "Lưu trữ tức thời thủ công";
+"ReadySegmentAutoSave" = "Lưu trữ tức thời tự động";
+"ReadyEditTitleFailed" = "Đổi tên thất bại: Tên không được trống";
+"ReadyEditTitleSuccess" = "Đổi tên thành công";
+"ReadyGameSaveStatesEmpty" = "Chưa có lưu trữ";
+"GameSaveGuideBecomTitle" = "Trở thành";
+"GameSaveGuideMemberTitle" = "Thành viên";
+"GameSaveGuideDesc" = "Mở khóa không giới hạn lưu trữ tức thời và hỗ trợ 50 lưu trữ tự động";
+"GameSaveUnCompatibleTitle" = "Vấn đề tương thích lưu trữ";
+"GameSaveUnCompatibleDetail" = "Lưu trữ này được tạo bởi %@. Môi trường hiện tại: %@. Lưu trữ có thể gặp lỗi nếu tải trong môi trường không tương thích!";
+"GameSaveStateForceLoad" = "Tiếp tục tải";
+"GameSaveContinue" = "Tiếp tục";
+"GameSaveTitle" = "Lưu trữ %d";
+
+//Skin
+"SkinNavigationSubTitleCommon" = "Manic EMU hỗ trợ skin định dạng .deltaskin";
+"SkinNavigationSubTitleSpecifiedGame" = "Skin dành riêng cho %@";
+"SkinSegmentPortraitTitle" = "Dọc";
+"SkinSegmentLandscapeTitle" = "Ngang";
+"SkinAddTitle" = "Thêm skin";
+"HowToFetch" = "Cách nhận";
+"SkinDelete" = "Xóa skin";
+"DefaultSkinCannotEdit" = "Không thể chỉnh sửa skin mặc định";
+
+//History
+"HistoryHeaderTitle" = "Lịch sử chơi";
+"HistoryFavouriteTitle" = "Yêu thích";
+"HistoryEmptyTitle" = "Chưa có lịch sử";
+"HistoryEmptyImportGame" = "Nhập trò chơi";
+"HistoryEmptyStartGame" = "Bắt đầu ngay";
+
+//Settings
+"LeftHandTitle" = "Chế độ thuận tay trái";
+"LeftHandDetail" = "Đảo vị trí phím điều khiển";
+"QuickGameTitle" = "Khởi động nhanh";
+"QuickGameDetail" = "Bỏ qua trang chuẩn bị khi nhấn vào trò chơi";
+"AirPlayTitle" = "Chế độ AirPlay toàn màn hình";
+"AirPlayDetail" = "Hiển thị trò chơi toàn màn hình khi phát";
+"iCloudTitle" = "Đồng bộ iCloud";
+"iCloudDetail" = "Đồng bộ trò chơi, skin, lưu trữ và cài đặt trên các thiết bị cùng Apple ID";
+"AppIconTitle" = "Biểu tượng ứng dụng";
+"WidgetTitle" = "Tiện ích màn hình";
+"QATitle" = "Câu hỏi thường gặp";
+"FeedbackTitle" = "Phản hồi";
+"ShareAppTitle" = "Chia sẻ Manic EMU";
+"JoinQQTitle" = "Tham gia kênh QQ";
+"JoinTelegramTitle" = "Tham gia Telegram";
+"ClearCacheTitle" = "Xóa bộ nhớ đệm";
+"LanguageTitle" = "Ngôn ngữ";
+"UserAgreementTitle" = "Điều khoản";
+"PrivacyPolicyTitle" = "Chính sách bảo mật";
+"GeneralSettingTitle" = "Cài đặt chung";
+"AdvanceSettingTitle" = "Cài đặt nâng cao";
+"SupportSettingTitle" = "Hỗ trợ";
+"OthersSettingTitle" = "Khác";
+"RatingTitleLeft" = "Đánh giá";
+"RatingTitleRight" = "";
+"RatingDetail" = "Nếu thấy ứng dụng hữu ích, hãy đánh giá 5 sao để ủng hộ chúng tôi!";
+"iCloudDisableTitle" = "iCloud tạm khóa";
+"iCloudDisableDetail" = "Vui lòng đăng nhập iCloud và bật iCloud Drive trong Cài đặt > Apple ID";
+"iCloudSyncConfilictTitle" = "Xung đột đồng bộ";
+"iCloudSyncConfilictDetail" = "Tệp đám mây:\n%@\n\nTệp cục bộ:\n%@";
+"iCloudSyncConfilictSaveiCloud" = "Giữ bản đám mây";
+"iCloudSyncConfilictSaveLocal" = "Giữ bản cục bộ";
+"SettingsNonMemberDesc" = "Bạn là nhân vật chính của câu chuyện này";
+"ThanksSupportDesc" = "Cảm ơn sự ủng hộ";
+"ThanksCommingDesc" = "Cảm ơn bạn đã đến với";
+"PlayGameDesc" = "";
+"NoEmailSetting" = "Chưa thiết lập email";
+"IDCopy" = "Đã sao chép ID";
+"SendEmailSuccess" = "Gửi email thành công";
+"SendEmailFailed" = "Gửi email thất bại%@";
+"iCloudTipsTitle" = "Bật đồng bộ iCloud";
+"iCloudTipsDetail" = "Dữ liệu sẽ được lưu trữ trên iCloud và chiếm dung lượng. Thiếu dung lượng có thể gây lỗi đồng bộ!";
+"iCloudConfirm" = "Tiếp tục";
+
+//Play
+"LoadingTitle" = "Đang tải";
+"LoadRomSuccess" = "%@ tải xong, bắt đầu chơi!";
+"GameSettingSaveState" = "Lưu trữ";
+"GameSettingQuickLoadState" = "Tải nhanh";
+"GameSettingVolume" = "Âm lượng";
+"GameSettingFastForwardResume" = "Tốc độ bình thường";
+"GameSettingFastForward" = "Tua nhanh x%@";
+"GameSettingStateList" = "Danh sách lưu trữ";
+"GameSettingSkins" = "Thiết lập skin";
+"GameSettingFilter" = "Bộ lọc";
+"GameSettingScreenShot" = "Chụp màn hình";
+"GameSettingHapticOff" = "Tắt rung";
+"GameSettingHapticSoft" = "Rung nhẹ";
+"GameSettingHapticLight" = "Rung yếu";
+"GameSettingHapticMedium" = "Rung trung bình";
+"GameSettingHapticHeavy" = "Rung mạnh";
+"GameSettingHapticRigid" = "Rung cứng";
+"GameSettingControllerTypeDPad" = "DPad";
+"GameSettingControllerTypeStick" = "Phím điều khiển";
+"GameSettingAirplay" = "Phát AirPlay";
+"GameSettingControllerSetting" = "Cài đặt điều khiển";
+"GameSettingOrientationAuto" = "Tự động xoay";
+"GameSettingOrientationPortrait" = "Cố định dọc";
+"GameSettingOrientationLandscape" = "Cố định ngang";
+"GameSettingFunctionSort" = "Sắp xếp chức năng";
+"GameSettingReload" = "Khởi động lại";
+"GameSettingQuit" = "Thoát";
+"GameSaveStateSuccess" = "Lưu trữ tức thời thành công";
+"GameSaveStateLoadFailed" = "Lỗi tải: Lưu trữ không tương thích hoặc hỏng";
+"GameSaveStateLoadSuccess" = "Tải lưu trữ thành công";
+"GameSaveStateQuickLoadFailed" = "Không có lưu trữ thủ công, dùng \"Danh sách lưu trữ\" để tải tự động";
+"GameSaveListTitle" = "Lưu trữ tức thời";
+"GameCheatActivateFailed" = "%@\nKích hoạt thất bại: Cheat code không hợp lệ";
+"GameCheatActivateSuccess" = "%@\nKích hoạt thành công";
+"AirPlayingTitle" = "Hình ảnh đang phát qua AirPlay";
+"VolumeOff" = "Tắt âm";
+"VolumeOn" = "Bật âm";
+"FunctionSortDesc1" = "Các chức năng mặc định trên skin chính thức";
+"FunctionSortDesc2" = "Nhấn giữ để sắp xếp";
+"ManualGameSaveCountLimit" = "Đã vượt giới hạn lưu trữ! Nâng cấp thành viên để mở khóa";
+"FastForwardSpeedLimit" = "Tốc độ tối đa x2! Nâng cấp để đạt x5";
+"ResetSpeed" = "Về tốc độ thường";
+"GoToUpgrade" = "Nâng cấp";
+"SaveStateTooFrequent" = "Lưu trữ quá nhiều lần";
+"LoadStateTooFrequent" = "Tải quá nhiều lần";
+
+//CheatCode
+"CheatCodeNamePlaceHolder" = "Nhập tên";
+"AutoDetectCheatTypeName" = "Tự động phát hiện";
+"AutoDetectFormat" = "Nhập code để tự động nhận dạng";
+"CheatCodeFormatError" = "Định dạng cheat code không đúng";
+"CheatCodeEmptyTitle" = "Chưa có cheat code";
+"CheatCodeEmptyGuideLeft" = "Nhấn vào";
+"CheatCodeEmptyGuideRight" = "góc trái để thêm cheat code";
+"EnableCheatCodeAlertTitle" = "Kích hoạt cheat code";
+"EnableCheatCodeAlertDetail" = "Cheat code phải khớp phiên bản trò chơi. Sử dụng có thể gây lỗi hệ thống!";
+
+//Filter
+"FilterSectionHeaderTitle" = "Bộ lọc hình ảnh";
+"FilterOriginTitle" = "Gốc";
+
+//In-App Purchase
+"PurchaseAdcancedFeaturesTitle" = "Mở khóc tính năng cao cấp";
+"AdcancedFeaturesDetail" = "
+「🎮 Trải nghiệm tối ưu」
+🔥 Lưu trữ không giới hạn
+🚀 Tốc độ x5
+💎 Thư viện cheat code vô hạn
+✨ Bộ lọc độc quyền
+";
+"PurchaseImportFeaturesTitle" = "Kích hoạt nhập từ đám mây";
+"ImportFeaturesDetail" = " 
+☁️ Hỗ trợ Google Drive, Dropbox, OneDrive,
+Baidu Cloud, Alibaba Cloud, WebDAV/SMB
+";
+"PurchaseControllerFeaturesTitle" = "Mở khóa điều khiển ngoài";
+"ControllerFeaturesDetail" = " 
+🕹️ Hỗ trợ Joy-Con/DUALSHOCK/Xbox
+⌨️ Kết nối Bluetooth đa thiết bị
+";
+"PurchaseAirPlayFeaturesTitle" = "Mở khóa AirPlay";
+"AirPlayFeaturesDetail" = " 
+📺 Phát không dây toàn màn hình
+🎮 Trải nghiệm TV + điều khiển
+";
+"PurchaseiCloudFeaturesTitle" = "Đồng bộ iCloud";
+"iCloudFeaturesDetail" = " 
+☁️ Đồng bộ đa thiết bị
+🔄 Tiếp tục chơi mọi lúc mọi nơi
+";
+"AdvanceFeatureDescLabel1" = "Tốc độ x5";
+"AdvanceFeatureDescLabel2" = "Lưu trữ không giới hạn";
+"AdvanceFeatureDescLabel3" = "Cheat code không giới hạn";
+"AdvanceFeatureDescLabel4" = "Tùy chọn bộ lọc";
+"AdvanceFeatureDescLabel5" = "Lưu trữ tự động";
+"RestorePurchaseButton" = "Khôi phục mua";
+"AnnualDescription" = "Thành viên năm";
+"MonthlyDescription" = "Thành viên tháng";
+"ForeverDescription" = "Trọn đời · Thanh toán một lần";
+"SubscriptionPromotional" = "Dùng thử %d ngày miễn phí";
+"PurchasePricePerYear" = "/năm";
+"PurchasePricePerMonth" = "/tháng";
+"PromptLabelForYear" = "Giảm 50%%";
+"PromptLabelForMonth" = "Giá ưu đãi";
+"PromptLabelForForever" = "Tiết kiệm nhất";
+"GetProductsFailedTitle" = "Lỗi tải sản phẩm, thử lại sau";
+"TermOfServiceTitle" = "Điều khoản dịch vụ";
+"AnnualMemberTitle" = "Thành viên năm";
+"MonthlyMemberTitle" = "Thành viên tháng";
+"ForeverMemberTitle" = "Thành viên trọn đời";
+"PurchaseVerifiedFailed" = "Xác minh thất bại, khởi động lại ứng dụng";
+"PurchaseCancel" = "Hủy thanh toán";
+"PurchasePending" = "Thanh toán đang chờ xử lý";
+"PurchaseUnknown" = "Trạng thái không xác định";
+"PurchaseErrorDesc" = "Lỗi mạng, thử lại sau";
+"PurchaseFailedTitle" = "Thanh toán thất bại";
+"RestoreSuccessDesc" = "Khôi phục thành công!";
+"RestoreEndDesc" = "Không tìm thấy giao dịch";
+"TrialDesc" = "Dùng thử miễn phí, hủy bất kỳ lúc nào";
+"SubscriptionPurchaseButtonTitle" = "Dùng thử %d ngày";
+"YearSubscriptionDisableDesc" = "Bạn đã đăng ký gói năm";
+"MonthSubscriptionDisableDesc" = "Bạn đã đăng ký gói tháng";
+"ForeverSubscriptionDisableDesc" = "Bạn đã sở hữu gói trọn đời";
+"ChangeSubscription" = "Đổi gói";
+"UpgradePurchase" = "Nâng cấp";
+"ForeverPlanDesc" = "Hưởng mọi tính năng tương lai";
+"BuyNowTitle" = "Mua ngay";
+"SettingsFreeTrialDesc" = "Dùng thử %d ngày";
+"Hi" = "Xin chào, ";
+
+//Permission
+"PrePermissionPhotoTitle" = "Cho phép Manic EMU truy cập thư viện?";
+"PrePermissionPhotoMessage" = "Lưu ảnh chụp và chọn ảnh làm bìa trò chơi";
+"PrePermissionPhotoCancel" = "Không";
+"PrePermissionPhotoConfirm" = "Cho phép";
+"DeniedPermissionPhotoTitle" = "Không có quyền truy cập thư viện!";
+"DeniedPermissionPhotoMessage" = "Cần quyền để lưu ảnh chụp màn hình";
+"DeniedPermissionPhotoCancel" = "Không";
+"DeniedPermissionPhotoConfirm" = "Cấp quyền";
+"PrePermissionCameraTitle" = "Cho phép truy cập camera?";
+"PrePermissionCameraMessage" = "Chụp ảnh làm bìa trò chơi";
+"PrePermissionCameraCancel" = "Không";
+"PrePermissionCameraConfirm" = "Cho phép";
+"DeniedPermissionCameraTitle" = "Không có quyền truy cập camera!";
+"DeniedPermissionCameraMessage" = "Cần quyền để chụp ảnh bìa";
+"DeniedPermissionCameraCancel" = "Không";
+"DeniedPermissionCameraConfirm" = "Cấp quyền";
+"DeniedPermissionMicTitle" = "Không có quyền microphone!";
+"DeniedPermissionMicMessage" = "Cần quyền cho trò chơi DS";
+"DeniedPermissionMicCancel" = "Không";
+"DeniedPermissionMicConfirm" = "Cấp quyền";
+
+//Share
+"ShareAppSubtitle" = "Cùng bạn bè khám phá!";
+"ShareRomFilesFailed" = "Chia sẻ ROM thất bại";
+"ShareSaveFilesFailed" = "Chia sẻ lưu trữ thất bại";
+"ShareFilesCopyFailed" = "Lỗi sao chép";
+"ShareFilesCompressFailed" = "Lỗi nén tệp";
+
+"TurnOnAirPlayAsk" = "Đã kết nối AirPlay. Bật chế độ toàn màn hình ngay bây giờ?";
+
+"ThreeDSModePerformance" = "Chế độ Hiệu suất";
+"ThreeDSModeCompatibility" = "Chế độ Tương thích";
+"ThreeDSModeQuality" = "Ưu tiên Đồ họa";
+"ThreeDSNotSupportImportSave" = "Game 3DS hiện không hỗ trợ nhập file lưu";
+"ThreeDSNotSupportShareSave" = "Game 3DS hiện không hỗ trợ chia sẻ file lưu";
+"ThreeDSBetaAlertTitle" = "Bản Thử nghiệm 3DS";
+"ThreeDSBetaAlertDetail" = "Để bạn trải nghiệm game 3DS sớm hơn, Manic EMU đã phát hành tính năng 3DS ở trạng thái thử nghiệm. Một số tối ưu vẫn cần thiết.
+
+Tính năng tạm thời thiếu:
+❌ Chế độ toàn màn hình AirPlay
+❌ Tự động lưu
+❌ Tăng tốc
+
+Nếu gặp lỗi, hãy xem FAQ hoặc tham gia kênh hỗ trợ. Chúng tôi đang liên tục cải thiện trình giả lập. Sự ủng hộ của bạn giúp tạo trải nghiệm hoàn hảo hơn. Luôn nỗ lực vì bạn!";
+"ThreeDSNoSupportDeviceTitle" = "Hiệu năng thiết bị không đủ";
+"ThreeDSNoSupportDeviceDetail" = "Thiết bị hiện tại có thể không hỗ trợ giả lập 3DS. Tiếp tục có thể gây ra lỗi không thể đoán trước";
+
+"GameImportBadFile" = "Nhập thất bại: \"%@\" đã hỏng hoặc có lỗi không xác định. Vui lòng thử tập tin ROM khác";
+"Game3DSDecryptFailed" = "Nhập thất bại: Giải mã \"%@\" thất bại. Vui lòng thử tập tin ROM khác";
+"Game3DSGameNotExist" = "Nhập bản cập nhật thất bại, \"%@\": Trò chơi chưa được cài đặt!";

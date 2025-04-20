@@ -1,0 +1,3 @@
+[submodule "ManicEmuCore"]
+	path = ManicEmuCore
+	url = https://github.com/LeeAoshuang/ManicEmuCore.git

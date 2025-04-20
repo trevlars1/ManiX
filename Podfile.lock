@@ -1,0 +1,429 @@
+PODS:
+  - BetterSegmentedControl (2.0.1)
+  - BitByteData (2.0.4)
+  - BlankSlate (0.7.1)
+  - Closures (1.0.1)
+  - CloudServiceKit (1.0.4):
+    - OAuthSwift
+  - CollectionViewPagingLayout (1.1.0)
+  - Device (3.7.0)
+  - DNSPageView (2.2.0):
+    - CollectionViewPagingLayout
+    - SnapKit
+  - Fireworks (1.0.0)
+  - FLEX (5.22.10)
+  - FluentDarkModeKit (1.0.4)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
+  - Haptica (3.0.3)
+  - HXPhotoPicker/Camera/Lite (4.2.5):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Core (4.2.5):
+    - HXPhotoPicker/Resources
+  - HXPhotoPicker/Editor/Lite (4.2.5):
+    - HXPhotoPicker/EditorView/Lite
+  - HXPhotoPicker/EditorView/Lite (4.2.5):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Lite (4.2.5):
+    - HXPhotoPicker/Camera/Lite
+    - HXPhotoPicker/Editor/Lite
+    - HXPhotoPicker/Picker/Lite
+  - HXPhotoPicker/Picker/Lite (4.2.5):
+    - HXPhotoPicker/Core
+  - HXPhotoPicker/Resources (4.2.5)
+  - IceCream (2.1.0):
+    - RealmSwift (~> 10.42)
+  - iCloudSync (8.0.21)
+  - IQKeyboardCore (1.0.5)
+  - IQKeyboardManagerSwift (8.0.0):
+    - IQKeyboardManagerSwift/Appearance (= 8.0.0)
+    - IQKeyboardManagerSwift/Core (= 8.0.0)
+    - IQKeyboardManagerSwift/IQKeyboardReturnManager (= 8.0.0)
+    - IQKeyboardManagerSwift/IQKeyboardToolbarManager (= 8.0.0)
+    - IQKeyboardManagerSwift/IQTextView (= 8.0.0)
+    - IQKeyboardManagerSwift/Resign (= 8.0.0)
+  - IQKeyboardManagerSwift/Appearance (8.0.0):
+    - IQKeyboardManagerSwift/Core
+  - IQKeyboardManagerSwift/Core (8.0.0):
+    - IQKeyboardNotification
+    - IQTextInputViewNotification
+  - IQKeyboardManagerSwift/IQKeyboardReturnManager (8.0.0):
+    - IQKeyboardReturnManager
+  - IQKeyboardManagerSwift/IQKeyboardToolbarManager (8.0.0):
+    - IQKeyboardManagerSwift/Core
+    - IQKeyboardToolbarManager
+  - IQKeyboardManagerSwift/IQTextView (8.0.0):
+    - IQTextView
+  - IQKeyboardManagerSwift/Resign (8.0.0):
+    - IQKeyboardManagerSwift/Core
+  - IQKeyboardNotification (1.0.3)
+  - IQKeyboardReturnManager (1.0.4):
+    - IQKeyboardCore (= 1.0.5)
+  - IQKeyboardToolbar (1.1.1):
+    - IQKeyboardCore
+    - IQKeyboardToolbar/Core (= 1.1.1)
+  - IQKeyboardToolbar/Core (1.1.1):
+    - IQKeyboardCore
+    - IQKeyboardToolbar/Placeholderable
+  - IQKeyboardToolbar/Placeholderable (1.1.1):
+    - IQKeyboardCore
+  - IQKeyboardToolbarManager (1.1.2):
+    - IQKeyboardToolbar
+    - IQTextInputViewNotification
+  - IQTextInputViewNotification (1.0.8):
+    - IQKeyboardCore
+  - IQTextView (1.0.5):
+    - IQKeyboardToolbar/Placeholderable
+  - JXBanner (0.3.6):
+    - JXBanner/Banner (= 0.3.6)
+    - JXBanner/PageControl (= 0.3.6)
+  - JXBanner/Banner (0.3.6):
+    - JXBanner/Banner/API (= 0.3.6)
+    - JXBanner/Banner/Banner (= 0.3.6)
+    - JXBanner/Banner/Cell (= 0.3.6)
+    - JXBanner/Banner/Common (= 0.3.6)
+    - JXBanner/Banner/Transform (= 0.3.6)
+  - JXBanner/Banner/API (0.3.6):
+    - JXBanner/Banner/Cell
+    - JXBanner/PageControl
+  - JXBanner/Banner/Banner (0.3.6):
+    - JXBanner/Banner/API
+    - JXBanner/Banner/Common
+    - JXBanner/Banner/Transform
+  - JXBanner/Banner/Cell (0.3.6)
+  - JXBanner/Banner/Common (0.3.6)
+  - JXBanner/Banner/Transform (0.3.6):
+    - JXBanner/Banner/API
+  - JXBanner/PageControl (0.3.6):
+    - JXPageControl
+  - JXPageControl (0.1.5):
+    - JXPageControl/Common (= 0.1.5)
+    - JXPageControl/Jump (= 0.1.5)
+    - JXPageControl/Transform (= 0.1.5)
+  - JXPageControl/Common (0.1.5)
+  - JXPageControl/Jump (0.1.5):
+    - JXPageControl/Common
+  - JXPageControl/Transform (0.1.5):
+    - JXPageControl/Common
+  - KeychainAccess (4.2.2)
+  - LookinServer/Core (1.2.8)
+  - LookinServer/Swift (1.2.8):
+    - LookinServer/Core
+  - ManicEmuCore (0.1):
+    - ZIPFoundation
+  - ManicSupport (1.0.2)
+  - MarqueeLabel (4.5.0)
+  - NVActivityIndicatorView (5.2.0):
+    - NVActivityIndicatorView/Base (= 5.2.0)
+  - NVActivityIndicatorView/Base (5.2.0)
+  - OAuthSwift (2.2.0)
+  - Permission/Camera (3.1.2):
+    - Permission/Core
+  - Permission/Core (3.1.2)
+  - Permission/Microphone (3.1.2):
+    - Permission/Core
+  - Permission/Photos (3.1.2):
+    - Permission/Core
+  - ProHUD (4.0.3):
+    - SnapKit
+  - Realm (10.54.2):
+    - Realm/Headers (= 10.54.2)
+  - Realm/Headers (10.54.2)
+  - RealmSwift (10.54.2):
+    - Realm (= 10.54.2)
+  - Schedule (2.1.0)
+  - SFSafeSymbols (5.3.0)
+  - ShowTouches (1.0.0)
+  - SideMenu (6.5.0)
+  - SnapKit (5.7.1)
+  - SSZipArchive (2.6.1)
+  - SWCompression/LZMA (4.8.6):
+    - BitByteData (~> 2.0)
+  - SWCompression/LZMA2 (4.8.6):
+    - BitByteData (~> 2.0)
+    - SWCompression/LZMA
+  - SWCompression/SevenZip (4.8.6):
+    - BitByteData (~> 2.0)
+    - SWCompression/LZMA2
+  - SwifterSwift (7.0.0):
+    - SwifterSwift/AppKit (= 7.0.0)
+    - SwifterSwift/CoreAnimation (= 7.0.0)
+    - SwifterSwift/CoreGraphics (= 7.0.0)
+    - SwifterSwift/CoreLocation (= 7.0.0)
+    - SwifterSwift/CryptoKit (= 7.0.0)
+    - SwifterSwift/Dispatch (= 7.0.0)
+    - SwifterSwift/Foundation (= 7.0.0)
+    - SwifterSwift/HealthKit (= 7.0.0)
+    - SwifterSwift/MapKit (= 7.0.0)
+    - SwifterSwift/SceneKit (= 7.0.0)
+    - SwifterSwift/SpriteKit (= 7.0.0)
+    - SwifterSwift/StoreKit (= 7.0.0)
+    - SwifterSwift/SwiftStdlib (= 7.0.0)
+    - SwifterSwift/UIKit (= 7.0.0)
+    - SwifterSwift/WebKit (= 7.0.0)
+  - SwifterSwift/AppKit (7.0.0)
+  - SwifterSwift/CoreAnimation (7.0.0)
+  - SwifterSwift/CoreGraphics (7.0.0)
+  - SwifterSwift/CoreLocation (7.0.0)
+  - SwifterSwift/CryptoKit (7.0.0)
+  - SwifterSwift/Dispatch (7.0.0)
+  - SwifterSwift/Foundation (7.0.0)
+  - SwifterSwift/HealthKit (7.0.0)
+  - SwifterSwift/MapKit (7.0.0)
+  - SwifterSwift/SceneKit (7.0.0)
+  - SwifterSwift/SpriteKit (7.0.0)
+  - SwifterSwift/StoreKit (7.0.0)
+  - SwifterSwift/SwiftStdlib (7.0.0)
+  - SwifterSwift/UIKit (7.0.0)
+  - SwifterSwift/WebKit (7.0.0)
+  - SwipeCellKit (2.7.1)
+  - Tiercel (3.2.5)
+  - TKSwitcherCollection (1.4.3)
+  - UMAPM (2.0.3):
+    - UMCommon
+  - UMCommon (7.5.2):
+    - UMDevice
+  - UMDevice (3.4.0)
+  - VisualEffectView (5.0.0)
+  - ZIPFoundation (0.9.19)
+
+DEPENDENCIES:
+  - BetterSegmentedControl (~> 2.0)
+  - BlankSlate (from `https://github.com/LeeAoshuang/BlankSlate.git`, branch `main`)
+  - Closures (from `https://github.com/LeeAoshuang/Closures.git`, branch `master`)
+  - CloudServiceKit (from `https://github.com/LeeAoshuang/CloudServiceKit.git`, branch `main`)
+  - CollectionViewPagingLayout (from `https://github.com/LeeAoshuang/CollectionViewPagingLayout.git`, branch `master`)
+  - Device (~> 3.7)
+  - DNSPageView (from `https://github.com/LeeAoshuang/DNSPageView.git`, branch `master`)
+  - Fireworks (from `https://github.com/tomkowz/fireworks.git`, branch `master`)
+  - FLEX
+  - FluentDarkModeKit (~> 1.0.4)
+  - GCDWebServer/WebUploader (from `https://github.com/LeeAoshuang/GCDWebServer.git`, branch `master`)
+  - Haptica (~> 3.0)
+  - HXPhotoPicker/Lite (~> 4.2.5)
+  - IceCream (from `https://github.com/LeeAoshuang/IceCream.git`, branch `master`)
+  - iCloudSync (from `https://github.com/LeeAoshuang/iCloudSync.git`, branch `master`)
+  - IQKeyboardManagerSwift (~> 8.0)
+  - JXBanner (~> 0.3.6)
+  - KeychainAccess (~> 4.2)
+  - LookinServer/Swift
+  - ManicEmuCore (from `ManicEmuCore`)
+  - ManicSupport (from `https://github.com/LeeAoshuang/ManicSupport.git`, branch `main`)
+  - MarqueeLabel (~> 4.5)
+  - NVActivityIndicatorView (~> 5.2)
+  - Permission/Camera (~> 3.1.2)
+  - Permission/Microphone (~> 3.1.2)
+  - Permission/Photos (~> 3.1.2)
+  - ProHUD (from `https://github.com/LeeAoshuang/ProHUD.git`, branch `main`)
+  - RealmSwift (= 10.54.2)
+  - Schedule (~> 2.0)
+  - SFSafeSymbols (~> 5.0)
+  - ShowTouches
+  - SideMenu (~> 6.5)
+  - SnapKit (~> 5.0)
+  - SSZipArchive (from `https://github.com/LeeAoshuang/ZipArchive.git`, branch `main`)
+  - SWCompression/SevenZip (~> 4.8)
+  - SwifterSwift (~> 7.0)
+  - SwipeCellKit (from `https://github.com/LeeAoshuang/SwipeCellKit.git`, branch `develop`)
+  - Tiercel (~> 3.0)
+  - TKSwitcherCollection (from `https://github.com/LeeAoshuang/TKSwitcherCollection.git`, branch `master`)
+  - UMAPM (~> 2.0.3)
+  - UMCommon (~> 7.5.2)
+  - VisualEffectView (~> 5.0)
+  - ZIPFoundation (from `https://github.com/LeeAoshuang/ZIPFoundation.git`, branch `development`)
+
+SPEC REPOS:
+  trunk:
+    - BetterSegmentedControl
+    - BitByteData
+    - Device
+    - FLEX
+    - FluentDarkModeKit
+    - Haptica
+    - HXPhotoPicker
+    - IQKeyboardCore
+    - IQKeyboardManagerSwift
+    - IQKeyboardNotification
+    - IQKeyboardReturnManager
+    - IQKeyboardToolbar
+    - IQKeyboardToolbarManager
+    - IQTextInputViewNotification
+    - IQTextView
+    - JXBanner
+    - JXPageControl
+    - KeychainAccess
+    - LookinServer
+    - MarqueeLabel
+    - NVActivityIndicatorView
+    - OAuthSwift
+    - Permission
+    - Realm
+    - RealmSwift
+    - Schedule
+    - SFSafeSymbols
+    - ShowTouches
+    - SideMenu
+    - SnapKit
+    - SWCompression
+    - SwifterSwift
+    - Tiercel
+    - UMAPM
+    - UMCommon
+    - UMDevice
+    - VisualEffectView
+
+EXTERNAL SOURCES:
+  BlankSlate:
+    :branch: main
+    :git: https://github.com/LeeAoshuang/BlankSlate.git
+  Closures:
+    :branch: master
+    :git: https://github.com/LeeAoshuang/Closures.git
+  CloudServiceKit:
+    :branch: main
+    :git: https://github.com/LeeAoshuang/CloudServiceKit.git
+  CollectionViewPagingLayout:
+    :branch: master
+    :git: https://github.com/LeeAoshuang/CollectionViewPagingLayout.git
+  DNSPageView:
+    :branch: master
+    :git: https://github.com/LeeAoshuang/DNSPageView.git
+  Fireworks:
+    :branch: master
+    :git: https://github.com/tomkowz/fireworks.git
+  GCDWebServer:
+    :branch: master
+    :git: https://github.com/LeeAoshuang/GCDWebServer.git
+  IceCream:
+    :branch: master
+    :git: https://github.com/LeeAoshuang/IceCream.git
+  iCloudSync:
+    :branch: master
+    :git: https://github.com/LeeAoshuang/iCloudSync.git
+  ManicEmuCore:
+    :path: ManicEmuCore
+  ManicSupport:
+    :branch: main
+    :git: https://github.com/LeeAoshuang/ManicSupport.git
+  ProHUD:
+    :branch: main
+    :git: https://github.com/LeeAoshuang/ProHUD.git
+  SSZipArchive:
+    :branch: main
+    :git: https://github.com/LeeAoshuang/ZipArchive.git
+  SwipeCellKit:
+    :branch: develop
+    :git: https://github.com/LeeAoshuang/SwipeCellKit.git
+  TKSwitcherCollection:
+    :branch: master
+    :git: https://github.com/LeeAoshuang/TKSwitcherCollection.git
+  ZIPFoundation:
+    :branch: development
+    :git: https://github.com/LeeAoshuang/ZIPFoundation.git
+
+CHECKOUT OPTIONS:
+  BlankSlate:
+    :commit: 3097ec2d7f04535ae15a2344d93df48c047ac670
+    :git: https://github.com/LeeAoshuang/BlankSlate.git
+  Closures:
+    :commit: 07ea619b80883f5696922afa783e6c079a5f0a06
+    :git: https://github.com/LeeAoshuang/Closures.git
+  CloudServiceKit:
+    :commit: 2b41891f934a486c27289a853acc8d194f23b15b
+    :git: https://github.com/LeeAoshuang/CloudServiceKit.git
+  CollectionViewPagingLayout:
+    :commit: 5b40724af52b4d80f4b5d90a41f1aab8476be4f9
+    :git: https://github.com/LeeAoshuang/CollectionViewPagingLayout.git
+  DNSPageView:
+    :commit: 8e785358769eb09584790f2c62c5fe78057e50ce
+    :git: https://github.com/LeeAoshuang/DNSPageView.git
+  Fireworks:
+    :commit: c54a983649510ddaf1ff315000626eb43486410b
+    :git: https://github.com/tomkowz/fireworks.git
+  GCDWebServer:
+    :commit: 1ba156fc79d28441ae34151d23ef56cf697ce446
+    :git: https://github.com/LeeAoshuang/GCDWebServer.git
+  IceCream:
+    :commit: 355b0c87705dad080644859773eeddc5bcbc9ac5
+    :git: https://github.com/LeeAoshuang/IceCream.git
+  iCloudSync:
+    :commit: 00a195d801ccaaa37507ff9526a8bfd95f292d33
+    :git: https://github.com/LeeAoshuang/iCloudSync.git
+  ManicSupport:
+    :commit: f49d2077964e26c041a557e8f45ee0fe94c86314
+    :git: https://github.com/LeeAoshuang/ManicSupport.git
+  ProHUD:
+    :commit: 594c6504db11128fafb7657decd32dc2b5797ac5
+    :git: https://github.com/LeeAoshuang/ProHUD.git
+  SSZipArchive:
+    :commit: f17c1bd68ce08f5b31ea3f634f54b84a46741308
+    :git: https://github.com/LeeAoshuang/ZipArchive.git
+  SwipeCellKit:
+    :commit: db22aed0b77334279a610d819eb83358f1ab972e
+    :git: https://github.com/LeeAoshuang/SwipeCellKit.git
+  TKSwitcherCollection:
+    :commit: aa32d0d02a5b189288d53a77fcb50eed5090cd1f
+    :git: https://github.com/LeeAoshuang/TKSwitcherCollection.git
+  ZIPFoundation:
+    :commit: 155e9babbff906081da1ebeee076e2b1b02f5c02
+    :git: https://github.com/LeeAoshuang/ZIPFoundation.git
+
+SPEC CHECKSUMS:
+  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
+  BitByteData: 2422ed269fcddc44976d97f171a183d25ef535ce
+  BlankSlate: c20583b0b13dcc8c061fd60d4e51e1825671c9ee
+  Closures: f517d860081aa7a4e9773a1d89ccbf7b44ac6adf
+  CloudServiceKit: db8ffba351c3eedd4d1aa8113fe57df0eb57dc06
+  CollectionViewPagingLayout: 2f8d50683bae57ca88f47fa4ab0195c9079582cf
+  Device: acf18785fd7359aca095040e9c4745caf33b9cf1
+  DNSPageView: e8816aafcda7c1460a4c367c1fe8b3b4acd0e5f6
+  Fireworks: 62a6f2b8b693a2a8420702cbaee36c0fb0f06d6c
+  FLEX: f21ee4f498eed3f8a1eded66b21939fd3b7a22ce
+  FluentDarkModeKit: b6317653a00329564582884772ec57c4eaad1a1f
+  GCDWebServer: f5590602d75d912fb63660e57c4939d57b8fe85b
+  Haptica: 23497230b2d7476621f7860263ae0667279a0a89
+  HXPhotoPicker: f825c7c6ceb3df8227671cffebfa0463a9f233db
+  IceCream: fa012f4b8e5bc321f2dfde126c85f88a5da88dbb
+  iCloudSync: 68ea8986be30ac6297cc037312348c3e60c89e86
+  IQKeyboardCore: 28c8bf3bcd8ba5aa1570b318cbc4da94b861711e
+  IQKeyboardManagerSwift: 0c6fbbaa2e60739e48d7cf59f25661471a7a3a65
+  IQKeyboardNotification: d7382c4466c5a5adef92c7452ebf861b36050088
+  IQKeyboardReturnManager: 972be48528ce9e7508ab3ab15ac7efac803f17f5
+  IQKeyboardToolbar: d4bdccfb78324aec2f3920659c77bb89acd33312
+  IQKeyboardToolbarManager: 6f4072ac620c2572d4af8c09f42a801f3e4909f7
+  IQTextInputViewNotification: f5e954d8881fd9808b744e49e024cc0d4bcfe572
+  IQTextView: ae13b4922f22e6f027f62c557d9f4f236b19d5c7
+  JXBanner: 348dbef856e786494cbf30fb45d6b84826f2d3c5
+  JXPageControl: e9487b39e2e58fc17790833214f3b8e935bef98b
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
+  ManicEmuCore: 603508dd569938c2a84089bb82773ee6e976a102
+  ManicSupport: 8bd4d4e43db2a765b7d35ed838c44d6936638b7c
+  MarqueeLabel: 4b46d196abd253448e830cbd976f9eacc3af0849
+  NVActivityIndicatorView: fe52a6a68664c2df8991d7d9e3d86d8d19453c53
+  OAuthSwift: 75efbb5bd9a4b2b71a37bd7e986bf3f55ddd54c6
+  Permission: 4821359fb4d4367fb59aa16df38fbba5722ac842
+  ProHUD: 110b3ffab121a9606e1aab2886158546f6cfca8b
+  Realm: 16852517a207e98cc6acba9336b56c30d06d84ad
+  RealmSwift: bca777b3904ee58a9b16036e1840012f03348060
+  Schedule: 00e6d7bbdbdb000fd1f51a7d10e9f88a8c451fda
+  SFSafeSymbols: c0244d55ef543c7b2c01f3af2d3d2dd9e26dd00c
+  ShowTouches: d92e379beb451d6d63242abd38640182fb597a4e
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SSZipArchive: 83768be78cdddec97f2aac25d57cc0cd33cf7b72
+  SWCompression: 9379873ad5e9f25b31db88c441649b59a4c2bab7
+  SwifterSwift: e9caf990fc72e835432280755d1f4c43f2a483d5
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+  Tiercel: c0a73f876a72800333b15f4e7e48791f4ad21e90
+  TKSwitcherCollection: 6805f52958a8b661cd583a538345618a26ff9263
+  UMAPM: 6986ecc2d2a568c90d9bea3227b507b615ca28bd
+  UMCommon: 72513a01ebca2dead52f2112b4d7c6196dbbe412
+  UMDevice: dcdf7ec167387837559d149fbc7d793d984faf82
+  VisualEffectView: 173e1fabc2eb37af663547e14dc12efef7d2da8b
+  ZIPFoundation: b8c29ea7ae353b309bc810586181fd073cb3312c
+
+PODFILE CHECKSUM: cb85477e5d3c3b7db31767fe9644d2ba9c33af03
+
+COCOAPODS: 1.16.2

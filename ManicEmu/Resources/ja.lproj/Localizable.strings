@@ -1,0 +1,419 @@
+/*
+  Localizable.strings
+  ManicEmu
+
+  Created by Aushuang Lee on 2024/12/25.
+  Copyright © 2024 Manic EMU. All rights reserved.
+*/
+
+// Import
+"ImportAddCloudServiceTitle" = "クラウドサービス";
+"ImportAddLanServiceTitle" = "ローカルネットワークサービス";
+"ImportAddDiscoverServiceTitle" = "ディスカバリーサービス";
+"GoogleDrive" = "Google Drive";
+"Dropbox" = "Dropbox";
+"OneDrive" = "OneDrive";
+"BaiduYun" = "百度雲";
+"AliYun" = "阿里雲";
+"AddImportServiceHeaderTitle" = "サービスの追加";
+"ImportServiceDelete" = "サービスを削除";
+"ImportAliyunNotGetDriveId" = "阿里雲サービスの追加に失敗しました。ディレクトリの取得に失敗";
+"ImportDownloadError" = "ダウンロードエラー\n%@";
+"ImportDownloadContinue" = "ダウンロードを続行...\n%@";
+"LandServiceEditServerName" = "サーバー名";
+"LandServiceEditServerNamePlaceholder" = "マイSMBサーバー";
+"LandServiceEditHost" = "サーバーアドレス";
+"LandServiceEditUserName" = "ユーザー名";
+"LandServiceEditPassword" = "パスワード";
+"LandServiceEditRequiredPlaceholder" = "必須";
+"LandServiceEditOptionalPlaceholder" = "任意";
+"LandServiceEditConnect" = "接続";
+"AddLandServiceSuccess" = "%@の追加に成功";
+"AddLandServiceFailed" = "%@の追加に失敗\nネットワーク接続、サービス状態、または入力情報を確認してください";
+"AddLandServiceTimeout" = "接続タイムアウト";
+"FilesImporterErrorFileExist" = "\"%@\"は既に存在します。インポート不要";
+"FilesImporterErrorBadCopy" = "\"%@\"のインポートに失敗。ファイルコピー中にエラーが発生";
+"FilesImporterErrorBadExtension" = "\"%@\"のインポートに失敗。ファイル形式が認識できません";
+"FilesImporterErrorNoPermission" = "%@へのアクセス権限がありません";
+"FilesImporterErrorUnableToHash" = "\"%@\"のインポートに失敗。ハッシュ計算不可";
+"FilesImporterErrorWriteDatabase" = "\"%@\"のインポートに失敗。データベース書き込み不可";
+"GameSaveMatchTitle" = "セーブデータのゲームマッチング";
+"FilesImporterErrorSaveNoMatchGames" = "\"%@\"にマッチするゲームがありません。手動で選択してください";
+"GameSaveAlreadyExistTitle" = "セーブデータが既に存在";
+"FilesImporterErrorSaveAlreadyExist" = "\"%@\"のインポートに失敗。既存データを強制上書きしますか？";
+"GameSaveMathToMuchTitle" = "複数マッチング";
+"FilesImporterErrorSaveMathToMuch" = "\"%@\"のインポートに失敗。複数ゲームにマッチしました。手動で選択してください";
+"FilesImporterErrorSkinBadFile" = "%@のインポートに失敗。スキンファイルが破損しています";
+"PasteImporterErrorNoMatchContent" = "クリップボードに有効なコンテンツがありません";
+"FilesDownloadErrorFileExist" = "%@は既にダウンロード済みです";
+"FilesImporterErrorEmptyContent" = "インポート可能なリソースがありません";
+"LanServiceInitFailed" = "%@サービスの作成に失敗";
+"SMBLoginFailed" = "Sambaログイン失敗%@";
+"SMBListFilesFailed" = "ファイル取得失敗%@";
+"SMBListFilesTypeError" = "このファイルはフォルダではありません";
+"DropErrorLoadFailed" = "ファイル読み込み失敗";
+"DropErrorNotSupportFile" = "未対応のファイル形式";
+"ImportErrorTitle" = "インポートエラー";
+"ImportGameSuccessTitle" = "ゲームインポート成功";
+"ImportGameSuccessDetail" = "%@\nがライブラリに追加されました。今すぐ確認しますか？";
+"ImportGameSuccessDetailForOne" = "\"%@\"\nがライブラリに追加されました。今すぐプレイしますか？";
+"ImportSkinSuccessTitle" = "スキンインポート成功";
+"ImportSkinSuccessDetail" = "\"%@\"\nのインポートに成功。今すぐ確認しますか？";
+"ImportGameSaveSuccessTitle" = "セーブデータインポート成功";
+"ImportGameSaveSuccessDetail" = "\"%@\"\nが対応ゲームに追加されました";
+"ImportGameSaveSuccessForOne" = "\"%@\"\nがゲームに追加されました。今すぐプレイしますか？";
+"ImportGameSaveFailedNoGameError" = "\"%@\"のインポート失敗：ゲームが存在しません";
+"DownloadCompletion" = "ダウンロード完了";
+"QQChannelName" = "QQチャンネル";
+"NotSupportPasswordZip" = "\"%@\"を解凍できません。パスワード付きZIPは未対応";
+"UnzipFailed" = "\"%@\"の解凍に失敗";
+"NoSupportInZip" = "\"%@\"に未対応の形式が含まれています";
+"IPCopy" = "アドレスをコピーしました";
+"ImportServiceListFilesTitle" = "ファイル";
+"ImportServiceListFilesDetail" = "ファイルまたはiCloudからゲーム/スキン/セーブデータをインポート";
+"ImportServiceListWiFiTitle" = "WiFi";
+"ImportServiceListWiFiOffDetail" = "同一LAN内のブラウザでファイル転送";
+"ImportServiceListWiFiOnDetail" = "%@\nでブラウザ転送を利用";
+"ImportServiceListPasteTitle" = "クリップボード読み込み";
+"ImportServiceListPasteDetail" = "macOSやファイルアプリからのコピーに対応";
+"ImportHowTo" = "インポート方法";
+"ImportTopHintTitle" = "夢と冒険の物語がここから始まります！";
+"ImportDragAndDropTips" = "ファイルをManic EMUの任意画面にドラッグ＆ドロップ";
+"ImportChannelTips" = "ご不明点は%@でサポートを取得";
+"ToastConnectCloudDriveSuccess" = "%@への接続に成功";
+"AlertImportFilesSuccess" = "リソースのインポート成功";
+"ErrorConnectCloudDrive" = "クラウドサービスに接続できません";
+"ErrorUnknown" = "不明なエラー";
+"ReasonConncetCloudDriveFail" = "ネットワーク接続とクラウドサービスの認証状態を確認するか、サービスを再追加してください";
+
+// Common
+"TabbarTitleGames" = "ゲーム";
+"TabbarTitleImport" = "インポート";
+"TabbarTitleSettings" = "設定";
+"SelectAll" = "全選択";
+"DeSelectAll" = "選択解除";
+"CloudDriveBrowserDownload" = "ダウンロード";
+"CancelTitle" = "キャンセル";
+"CheckTitle" = "確認";
+"StartGameTitle" = "すぐにプレイ";
+"ConfirmTitle" = "確定";
+"SaveTitle" = "保存";
+"NameTitle" = "名前";
+"TimeAgoMinuteFormat" = "%d分前";
+"TimeAgoHourFormat" = "%d時間前";
+"TimeAgoDayFormat" = "%d日前";
+"TimeAgoWeekFormat" = "%d週間前";
+"TimeAgoMonthFormat" = "%dヶ月前";
+"TimeAgoYearFormat" = "%d年前";
+"TimeDurationHourAndMinuteFormat" = "%d時間%d分";
+"TimeDurationHourFormat" = "%d時間";
+"TimeDurationMinuteFormat" = "%d分";
+"FatalErrorTitle" = "致命的なエラー";
+"FatalErrorDesc" = "システムリソースの読み込みに失敗。Manic EMUの動作に重大な不具合が発生する可能性があります";
+"LodingFailedTitle" = "読み込み失敗";
+"AirPlayDesc" = "さあ、冒険を始めましょう！";
+"ToastSuccess" = "保存成功";
+"ToastFailed" = "保存失敗";
+
+// Games
+"GamesSearchPlaceHolder" = "ゲームタイトル";
+"GamesRename" = "名前変更";
+"GamesModifyCover" = "カバー変更";
+"GamesSpecifySkin" = "スキン設定";
+"GamesCheatCode" = "チートコード";
+"GamesShareRom" = "ROMを共有";
+"GamesCheckSave" = "セーブステートを確認";
+"GamesImportSave" = "セーブデータをインポート";
+"GamesShareSave" = "セーブデータをエクスポート";
+"GamesDelete" = "ゲームを削除";
+"GamesRandom" = "ランダムに選ぶ";
+"LoadGameErrorRomNotExist" = "ゲーム読み込みエラー：ROMが存在しません";
+"GamesListEmptyGuideLeft" = "下の";
+"GamesListEmptyGuideRight" = "をタップしてゲームをインポートしましょう";
+"GamesListEmptyWelcomeLeft" = "";
+"GamesListEmptyWelcomeRight" = "の世界へようこそ";
+"GamesListEmptyWarnning" = "ゲームROMは合法的な手段で取得してください";
+"DeleteGameAlertDetail" = "ゲームROM/セーブデータ/チートコードなどが完全削除されます（復元不可）";
+"DeleteSkinAlertDetail" = "スキンを削除すると復元できません！";
+"DeleteGameGameStateAlertTitle" = "セーブステート削除";
+"DeleteGameGameStateAlertDetail" = "セーブステートを削除すると復元できません！";
+"confirmDelte" = "削除を確認";
+
+// Controllers
+"ControllersTouchName" = "タッチコントローラー";
+"ControllersHeaderTitle" = "コントローラー";
+"ControllersPlayerIndex" = "プレイヤー%d";
+"ControllersPlayerUnset" = "未設定";
+"ControllersHowToConnect" = "接続方法";
+
+// GameInfo
+"ReadyGameInfoSubTitle" = "%@プレイ · 合計%@";
+"ReadyGameInfoNeverPlayed" = "未プレイ。冒険を始めましょう";
+"ReadyEditCoverTakePhoto" = "写真を撮る";
+"ReadyEditCoverAlbum" = "アルバム";
+"ReadyEditCoverFile" = "ファイル";
+"ReadyEditCoverSearch" = "検索";
+"ReadySegmentManualSave" = "手動セーブステート";
+"ReadySegmentAutoSave" = "自動セーブステート";
+"ReadyEditTitleFailed" = "名前変更失敗：ゲーム名が空です";
+"ReadyEditTitleSuccess" = "名前変更成功";
+"ReadyGameSaveStatesEmpty" = "セーブステートがありません";
+"GameSaveGuideBecomTitle" = "アップグレード";
+"GameSaveGuideMemberTitle" = "メンバー";
+"GameSaveGuideDesc" = "手動セーブステート無制限＆最大50個の自動セーブステートを解放";
+"GameSaveUnCompatibleTitle" = "セーブステート互換性問題";
+"GameSaveUnCompatibleDetail" = "このセーブステートは%@で生成されました。現在のデバイス環境は%@です。互換性のない環境で読み込むと異常が発生する可能性があります";
+"GameSaveStateForceLoad" = "強制読み込み";
+"GameSaveContinue" = "続ける";
+"GameSaveTitle" = "セーブステート%d";
+
+// Skin
+"SkinNavigationSubTitleCommon" = ".deltaskin形式のスキンに対応";
+"SkinNavigationSubTitleSpecifiedGame" = "%@専用スキン設定";
+"SkinSegmentPortraitTitle" = "縦画面";
+"SkinSegmentLandscapeTitle" = "横画面";
+"SkinAddTitle" = "新規スキン追加";
+"HowToFetch" = "入手方法";
+"SkinDelete" = "スキン削除";
+"DefaultSkinCannotEdit" = "デフォルトスキンは編集不可";
+
+// History
+"HistoryHeaderTitle" = "プレイ履歴";
+"HistoryFavouriteTitle" = "よくプレイ";
+"HistoryEmptyTitle" = "プレイ履歴なし";
+"HistoryEmptyImportGame" = "ゲームをインポート";
+"HistoryEmptyStartGame" = "今すぐプレイ";
+
+// Settings
+"LeftHandTitle" = "左利きモード";
+"LeftHandDetail" = "コントローラーの左右をミラーリング";
+"QuickGameTitle" = "クイックスタート";
+"QuickGameDetail" = "ゲームをタップで即時開始";
+"AirPlayTitle" = "AirPlay全画面モード";
+"AirPlayDetail" = "ゲーム画面を全画面でミラーリング";
+"iCloudTitle" = "iCloud同期";
+"iCloudDetail" = "同一Apple IDでゲーム/スキン/設定などを同期";
+"AppIconTitle" = "アプリアイコン";
+"WidgetTitle" = "ウィジェット";
+"QATitle" = "よくある質問";
+"FeedbackTitle" = "フィードバック";
+"ShareAppTitle" = "「Manic EMU」を共有";
+"JoinQQTitle" = "QQチャンネル参加";
+"JoinTelegramTitle" = "Telegram参加";
+"ClearCacheTitle" = "キャッシュクリア";
+"LanguageTitle" = "言語";
+"UserAgreementTitle" = "利用規約";
+"PrivacyPolicyTitle" = "プライバシーポリシー";
+"GeneralSettingTitle" = "一般設定";
+"AdvanceSettingTitle" = "詳細設定";
+"SupportSettingTitle" = "サポート";
+"OthersSettingTitle" = "その他";
+"RatingTitleLeft" = "";
+"RatingTitleRight" = "を評価";
+"RatingDetail" = "5つ星評価で開発を応援してください🙏";
+"iCloudDisableTitle" = "iCloudが無効";
+"iCloudDisableDetail" = "iPhoneの「設定」>「Apple ID」>「iCloud」でiCloud同期を有効化してください";
+"iCloudSyncConfilictTitle" = "iCloud同期コンフリクト";
+"iCloudSyncConfilictDetail" = "クラウドファイル:\n%@\n\nローカルファイル:\n%@";
+"iCloudSyncConfilictSaveiCloud" = "クラウドを保持";
+"iCloudSyncConfilictSaveLocal" = "ローカルを保持";
+"SettingsNonMemberDesc" = "あなたが物語の主人公です";
+"ThanksSupportDesc" = "サポートありがとう";
+"ThanksCommingDesc" = "";
+"PlayGameDesc" = "をご利用いただき感謝します";
+"NoEmailSetting" = "メール未設定";
+"IDCopy" = "IDをコピーしました";
+"SendEmailSuccess" = "メール送信成功";
+"SendEmailFailed" = "メール送信失敗%@";
+"iCloudTipsTitle" = "iCloud同期有効化";
+"iCloudTipsDetail" = "iCloud同期で全データがクラウドにアップロードされます。ストレージ不足は同期失敗の原因となります";
+"iCloudConfirm" = "続行";
+
+// Play
+"LoadingTitle" = "ダウンロード中";
+"LoadRomSuccess" = "%@のダウンロード完了。プレイ開始！";
+"GameSettingSaveState" = "セーブ";
+"GameSettingQuickLoadState" = "クイックロード";
+"GameSettingVolume" = "音量";
+"GameSettingFastForwardResume" = "通常速度";
+"GameSettingFastForward" = "倍速%@";
+"GameSettingStateList" = "セーブリスト";
+"GameSettingSkins" = "スキン設定";
+"GameSettingFilter" = "フィルター";
+"GameSettingScreenShot" = "スクリーンショット";
+"GameSettingHapticOff" = "振動オフ";
+"GameSettingHapticSoft" = "弱振動";
+"GameSettingHapticLight" = "軽振動";
+"GameSettingHapticMedium" = "中振動";
+"GameSettingHapticHeavy" = "強振動";
+"GameSettingHapticRigid" = "リジッド振動";
+"GameSettingControllerTypeDPad" = "十字キー";
+"GameSettingControllerTypeStick" = "アナログスティック";
+"GameSettingAirplay" = "ミラーリング";
+"GameSettingControllerSetting" = "コントローラー設定";
+"GameSettingOrientationAuto" = "自動回転";
+"GameSettingOrientationPortrait" = "縦画面固定";
+"GameSettingOrientationLandscape" = "横画面固定";
+"GameSettingFunctionSort" = "機能順序設定";
+"GameSettingReload" = "再起動";
+"GameSettingQuit" = "終了";
+"GameSaveStateSuccess" = "セーブステート成功";
+"GameSaveStateLoadFailed" = "セーブステート読み込み失敗：破損または非互換";
+"GameSaveStateLoadSuccess" = "セーブステート読み込み成功";
+"GameSaveStateQuickLoadFailed" = "手動セーブが存在しません。「セーブリスト」で自動セーブを選択してください";
+"GameSaveListTitle" = "セーブステート";
+"GameCheatActivateFailed" = "%@\n有効化失敗：無効なチートコード";
+"GameCheatActivateSuccess" = "%@\n有効化成功";
+"AirPlayingTitle" = "ミラーリング中";
+"VolumeOff" = "音量オフ";
+"VolumeOn" = "音量オン";
+"FunctionSortDesc1" = "公式スキンのクイック機能設定";
+"FunctionSortDesc2" = "長押しで順序変更";
+"ManualGameSaveCountLimit" = "手動セーブ制限超過。メンバーシップで解除可能";
+"FastForwardSpeedLimit" = "倍速上限x2。メンバーシップでx5倍速解放";
+"ResetSpeed" = "通常速度復帰";
+"GoToUpgrade" = "アップグレードへ";
+"SaveStateTooFrequent" = "セーブ頻度が高すぎます";
+"LoadStateTooFrequent" = "ロード頻度が高すぎます";
+
+// CheatCode
+"CheatCodeNamePlaceHolder" = "名前を入力";
+"AutoDetectCheatTypeName" = "自動検出";
+"AutoDetectFormat" = "コードを入力すると形式を自動検出";
+"CheatCodeFormatError" = "チートコード形式が不正";
+"CheatCodeEmptyTitle" = "チートコードなし";
+"CheatCodeEmptyGuideLeft" = "左上の";
+"CheatCodeEmptyGuideRight" = "をタップしてチートコードを追加";
+"EnableCheatCodeAlertTitle" = "チートコード有効化";
+"EnableCheatCodeAlertDetail" = "チートコードはゲームバージョン依存です。誤使用は不具合の原因となる可能性があります";
+
+// フィルター（Filter）
+"FilterSectionHeaderTitle" = "ビデオフィルター";
+"FilterOriginTitle" = "オリジナル";
+
+// 内購（In-App Purchase）
+"PurchaseAdcancedFeaturesTitle" = "プレミアム機能解放";
+"AdcancedFeaturesDetail" = "
+「🎮 究極体験 ワンタッチ解放」
+🔥 セーブ無制限
+🚀 5倍速対応
+💎 チートコード自由設定
+✨ 専用ビジュアルフィルター
+";
+"PurchaseImportFeaturesTitle" = "クラウドインポート機能";
+"ImportFeaturesDetail" = " 
+☁️ ​​「全クラウド連携」​
+✅ Google Drive/Dropbox/OneDrive
+✅ 百度雲/阿里雲
+⚡ WebDAV/SMBプロトコル対応
+";
+"PurchaseControllerFeaturesTitle" = "外部コントローラー完全対応";
+"ControllerFeaturesDetail" = " 
+🕹️ ​​「全デバイス制覇」​
+🎮 Joy-Con/DUALSHOCK/Xbox対応
+⌨️ キーボード接続可能
+✨ 複数デバイス同時接続
+";
+"PurchaseAirPlayFeaturesTitle" = "AirPlay大画面プレイ";
+"AirPlayFeaturesDetail" = " 
+📺 ​​「シームレスミラーリング」​
+🔓 高画質AirPlay対応
+🛋️ テレビと連携した没入体験
+";
+"PurchaseiCloudFeaturesTitle" = "iCloud同期機能";
+"iCloudFeaturesDetail" = " 
+☁️ ​​「マルチデバイス同期」​
+🎮 ゲーム/セーブ/設定を同期
+🔄 デバイス切り替え時も継続プレイ可能
+";
+"AdvanceFeatureDescLabel1" = "最大5倍速";
+"AdvanceFeatureDescLabel2" = "セーブ無制限";
+"AdvanceFeatureDescLabel3" = "チート無制限";
+"AdvanceFeatureDescLabel4" = "フィルター切替自由";
+"AdvanceFeatureDescLabel5" = "自動セーブステート";
+"RestorePurchaseButton" = "購入を復元";
+"AnnualDescription" = "年間プラン";
+"MonthlyDescription" = "月額プラン";
+"ForeverDescription" = "永久プラン · 買い切り";
+"SubscriptionPromotional" = "初回%d日間無料";
+"PurchasePricePerYear" = "/年";
+"PurchasePricePerMonth" = "/月";
+"PromptLabelForYear" = "50%%オフ";
+"PromptLabelForMonth" = "お試し価格";
+"PromptLabelForForever" = "最優遇";
+"GetProductsFailedTitle" = "商品取得失敗。後ほど再試行";
+"TermOfServiceTitle" = "利用規約";
+"AnnualMemberTitle" = "年間メンバー";
+"MonthlyMemberTitle" = "月額メンバー";
+"ForeverMemberTitle" = "永久メンバー";
+"PurchaseVerifiedFailed" = "認証失敗。ネット接続確認後再起動";
+"PurchaseCancel" = "支払いがキャンセルされました";
+"PurchasePending" = "支払い保留中";
+"PurchaseUnknown" = "不明な支払い状態";
+"PurchaseErrorDesc" = "支払い不可。ネット接続を確認";
+"PurchaseFailedTitle" = "支払い失敗";
+"RestoreSuccessDesc" = "購入復元成功！";
+"RestoreEndDesc" = "復元可能な購入情報なし";
+"TrialDesc" = "無料期間中は課金されません";
+"SubscriptionPurchaseButtonTitle" = "%d日間無料体験開始";
+"YearSubscriptionDisableDesc" = "年間プラン加入済";
+"MonthSubscriptionDisableDesc" = "月額プラン加入済";
+"ForeverSubscriptionDisableDesc" = "永久プラン加入済";
+"ChangeSubscription" = "プラン変更";
+"UpgradePurchase" = "アップグレード";
+"ForeverPlanDesc" = "永久に全機能を利用";
+"BuyNowTitle" = "今すぐ購読";
+"SettingsFreeTrialDesc" = "%d日間無料体験";
+"Hi" = "ようこそ";
+
+// Permission
+"PrePermissionPhotoTitle" = "Manic EMUに写真ライブラリへのアクセスを許可しますか？";
+"PrePermissionPhotoMessage" = "スクリーンショット保存とカバー画像選択に必要です";
+"PrePermissionPhotoCancel" = "後で";
+"PrePermissionPhotoConfirm" = "許可";
+"DeniedPermissionPhotoTitle" = "写真アクセス拒否";
+"DeniedPermissionPhotoMessage" = "設定から権限を付与してください";
+"DeniedPermissionPhotoCancel" = "いいえ";
+"DeniedPermissionPhotoConfirm" = "設定へ";
+"PrePermissionCameraTitle" = "Manic EMUにカメラへのアクセスを許可しますか？";
+"PrePermissionCameraMessage" = "カバー画像撮影に必要です";
+"PrePermissionCameraCancel" = "後で";
+"PrePermissionCameraConfirm" = "許可";
+"DeniedPermissionCameraTitle" = "カメラアクセス拒否";
+"DeniedPermissionCameraMessage" = "設定から権限を付与してください";
+"DeniedPermissionCameraCancel" = "いいえ";
+"DeniedPermissionCameraConfirm" = "設定へ";
+"DeniedPermissionMicTitle" = "マイクアクセス拒否";
+"DeniedPermissionMicMessage" = "一部DSゲーム機能に影響します";
+"DeniedPermissionMicCancel" = "いいえ";
+"DeniedPermissionMicConfirm" = "設定へ";
+
+// Share
+"ShareAppSubtitle" = "仲間と冒険を共有！";
+"ShareRomFilesFailed" = "ROM共有失敗：ファイル取得不可";
+"ShareSaveFilesFailed" = "セーブデータ共有失敗：データなし";
+"ShareFilesCopyFailed" = "共有失敗：ファイルコピーエラー";
+"ShareFilesCompressFailed" = "共有失敗：圧縮エラー";
+
+"TurnOnAirPlayAsk" = "AirPlayに接続中です。フルスクリーンに切り替えますか？";
+
+"ThreeDSModePerformance" = "パフォーマンスモード";
+"ThreeDSModeCompatibility" = "互換モード";
+"ThreeDSModeQuality" = "画質優先";
+"ThreeDSNotSupportImportSave" = "3DSゲームは現在セーブデータのインポートに対応しておりません";
+"ThreeDSNotSupportShareSave" = "3DSゲームは現在セーブデータの共有に対応しておりません";
+"ThreeDSBetaAlertTitle" = "3DS実験版のご注意";
+"ThreeDSBetaAlertDetail" = "3DSゲームをより早くお楽しみいただくため、Manic EMUでは実験版の3DS機能を提供しています。一部の機能は最適化が必要な状態です。
+
+以下の機能は一時的に利用できません:
+❌ AirPlayフルスクリーンモード
+❌ 自動セーブ機能
+❌ 倍速機能
+
+動作が不安定な場合は、FAQをご参照いただくか、コミュニティチャンネルまでお問い合わせください。エミュレータの改善に全力を尽くしております。ご理解とご支援が、より完璧なゲーム体験を創る力となります。";
+"ThreeDSNoSupportDeviceTitle" = "デバイスの性能不足";
+"ThreeDSNoSupportDeviceDetail" = "現在のデバイスでは3DSエミュレーションを実行できない可能性があります。続行すると予期せぬ不具合が発生する恐れがあります";
+
+"GameImportBadFile" = "インポート失敗：\"%@\"は破損ファイル、または不明なエラーです。別のROMファイルをお試しください";
+"Game3DSDecryptFailed" = "インポート失敗：\"%@\"の復号に失敗しました。別のROMファイルをお試しください";
+"Game3DSGameNotExist" = "更新のインポートに失敗しました。\"%@\"：ゲーム本体がインストールされていません！";
