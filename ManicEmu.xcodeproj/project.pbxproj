@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -701,6 +701,8 @@
 		57F632FE2D718236007270E8 /* SettingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F632FD2D71822A007270E8 /* SettingsListView.swift */; };
 		57F633002D718366007270E8 /* SettingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F632FF2D718360007270E8 /* SettingItem.swift */; };
 		57F633042D718C4E007270E8 /* LocaleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F633032D718C45007270E8 /* LocaleExtensions.swift */; };
+		694C2E7D2DF8BDE0007EF1ED /* N64Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694C2E7A2DF8BDE0007EF1ED /* N64Core.swift */; };
+		694C2E7E2DF8BDE0007EF1ED /* N64ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 694C2E7C2DF8BDE0007EF1ED /* N64ObjC.mm */; };
 		A519A38A256FCA50008AD6CE /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519A389256FCA50008AD6CE /* StringExtensions.swift */; };
 		A52C1D86257F91550029B15B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C1D85257F91550029B15B /* BaseViewController.swift */; };
 		A52C1D89257F96C90029B15B /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C1D88257F96C90029B15B /* UIViewControllerExtensions.swift */; };
@@ -2441,6 +2443,10 @@
 		57F632FF2D718360007270E8 /* SettingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingItem.swift; sourceTree = "<group>"; };
 		57F633032D718C45007270E8 /* LocaleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleExtensions.swift; sourceTree = "<group>"; };
 		5D42AD15F67D97D2A7EF83B9 /* Pods-ManicEmu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManicEmu.release.xcconfig"; path = "Target Support Files/Pods-ManicEmu/Pods-ManicEmu.release.xcconfig"; sourceTree = "<group>"; };
+		694C2E792DF8BDE0007EF1ED /* N64Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "N64Bridging-Header.h"; sourceTree = "<group>"; };
+		694C2E7A2DF8BDE0007EF1ED /* N64Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = N64Core.swift; sourceTree = "<group>"; };
+		694C2E7B2DF8BDE0007EF1ED /* N64ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = N64ObjC.h; sourceTree = "<group>"; };
+		694C2E7C2DF8BDE0007EF1ED /* N64ObjC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = N64ObjC.mm; sourceTree = "<group>"; };
 		8716E0FB35012D3F5C750B94 /* Pods-ManicEmu.devrelease.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManicEmu.devrelease.xcconfig"; path = "Target Support Files/Pods-ManicEmu/Pods-ManicEmu.devrelease.xcconfig"; sourceTree = "<group>"; };
 		A519A389256FCA50008AD6CE /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		A52C1D85257F91550029B15B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -2473,6 +2479,10 @@
 		BE44EF8F7A6E187F5AF74EFD /* Pods-ManicEmu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManicEmu.debug.xcconfig"; path = "Target Support Files/Pods-ManicEmu/Pods-ManicEmu.debug.xcconfig"; sourceTree = "<group>"; };
 		DF2E8F8EA477A62C025C6FCF /* libPods-ManicEmu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ManicEmu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		694C28E12DF8BA27007EF1ED /* Mupen64Plus */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Mupen64Plus; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		571744112DA2637F007CCE25 /* Frameworks */ = {
@@ -5877,6 +5887,26 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		694C2C612DF8BC75007EF1ED /* Mupen64Plus */ = {
+			isa = PBXGroup;
+			children = (
+				694C2C662DF8BC7D007EF1ED /* Custom */,
+				694C28E12DF8BA27007EF1ED /* Mupen64Plus */,
+			);
+			path = Mupen64Plus;
+			sourceTree = "<group>";
+		};
+		694C2C662DF8BC7D007EF1ED /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				694C2E792DF8BDE0007EF1ED /* N64Bridging-Header.h */,
+				694C2E7A2DF8BDE0007EF1ED /* N64Core.swift */,
+				694C2E7B2DF8BDE0007EF1ED /* N64ObjC.h */,
+				694C2E7C2DF8BDE0007EF1ED /* N64ObjC.mm */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		A52C1D84257F91430029B15B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -5971,6 +6001,7 @@
 		A5A001E624555A5F006E0F0E = {
 			isa = PBXGroup;
 			children = (
+				694C2C612DF8BC75007EF1ED /* Mupen64Plus */,
 				A5A001F124555A5F006E0F0E /* ManicEmu */,
 				5768F8272DAE005F009974D1 /* Cytrus */,
 				57DE98E52DB364C100F7EF56 /* melonDS */,
@@ -6192,6 +6223,9 @@
 			dependencies = (
 				57CC78FD2D3410AC001DBE06 /* PBXTargetDependency */,
 			);
+			fileSystemSynchronizedGroups = (
+				694C28E12DF8BA27007EF1ED /* Mupen64Plus */,
+			);
 			name = ManicEmu;
 			productName = EmojiWorld;
 			productReference = A5A001EF24555A5F006E0F0E /* ManicEmu.app */;
@@ -6206,7 +6240,6 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
-				
 				TargetAttributes = {
 					571744132DA2637F007CCE25 = {
 						CreatedOnToolsVersion = 16.2;
@@ -6337,9 +6370,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ManicEmu/Pods-ManicEmu-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ManicEmu/Pods-ManicEmu-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -6848,6 +6885,8 @@
 				57DE973B2DB33BC200F7EF56 /* NESEmulatorBridge.swift in Sources */,
 				57CCB34A2D65B3DC0036476B /* ImageFetcher.swift in Sources */,
 				57F633042D718C4E007270E8 /* LocaleExtensions.swift in Sources */,
+				694C2E7D2DF8BDE0007EF1ED /* N64Core.swift in Sources */,
+				694C2E7E2DF8BDE0007EF1ED /* N64ObjC.mm in Sources */,
 				57EC6A6D2D7FC1E4002920F0 /* GameSettingSortCollectionReusableView.swift in Sources */,
 				5770068B2D438F7400762E8F /* PlayHistoryView.swift in Sources */,
 				57F1A9342D7D6D7D00D0CC93 /* ExternalSceneDelegate.swift in Sources */,
@@ -7560,13 +7599,13 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "${APP_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ManicEmu/Sources/Base/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 				USER_HEADER_SEARCH_PATHS = (
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EmulatorCore/Swift Compatibility Header\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EmulatorCore/Swift Compatibility Header\"",
@@ -7901,13 +7940,13 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "${APP_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ManicEmu/Sources/Base/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 				USER_HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EmulatorCore/Swift Compatibility Header\"",
@@ -8056,13 +8095,13 @@
 				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = "${APP_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ManicEmu/Sources/Base/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 				USER_HEADER_SEARCH_PATHS = (
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EmulatorCore/Swift Compatibility Header\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/EmulatorCore/Swift Compatibility Header\"",

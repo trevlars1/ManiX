@@ -1,3 +1,6 @@
 [submodule "ManicEmuCore"]
 	path = ManicEmuCore
 	url = https://github.com/LeeAoshuang/ManicEmuCore.git
+[submodule "EmulatorCores/Mupen64Plus"]
+	path = EmulatorCores/Mupen64Plus
+	url = https://github.com/mupen64plus/mupen64plus-core.git

@@ -20,3 +20,4 @@
 #import "NESEmulatorBridge.hpp"
 #import "SNESEmulatorBridge.h"
 #import "MelonDSEmulatorBridge.h"
+#import "N64ObjC.h"

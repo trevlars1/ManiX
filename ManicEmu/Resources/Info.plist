@@ -4,8 +4,6 @@
 <dict>
 	<key>BUILD_DATE</key>
 	<string>2025-03-17T05:15:40Z</string>
-	<key>GIT_REV</key>
-	<string>24a341e925fe75ddab2e596a0ee3fe0ecd93c810</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -183,6 +181,8 @@
 	<true/>
 	<key>GCSupportsGameMode</key>
 	<true/>
+	<key>GIT_REV</key>
+	<string>24a341e925fe75ddab2e596a0ee3fe0ecd93c810</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationCategoryType</key>
@@ -268,12 +268,6 @@
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-		<string>UIInterfaceOrientationPortrait</string>
-	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
